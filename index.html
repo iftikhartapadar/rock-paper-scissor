@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Rock Paper Scissors</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+</head>
+
+<body>
+	<div class= "heading">
+		<h1>Rock Paper Scissors</h1>
+	</div>
+
+
+<div class="twoChoices">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<h4>Humanoid</h4>
+					<img id="user">
+				</div>
+				<div class="col-lg-2">
+					<h2 id="result">VERSES</h2>
+					<br>
+				</div>
+				<div class="col-lg-5">
+					<h4>CPU</h4>
+					<img id="cpu">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="wrapper">
+		<h2>Choose Rock, Paper, or Scissors</h2>
+		<img src= "assets/rock.png" alt="rock" onclick="checkResult(0)"></img>
+		<img src= "assets/paper.png" alt= "paper" onclick="checkResult(1)"></img> 
+		<img src= "assets/scissors.png" alt= "scissors" onclick="checkResult(2)"></img>
+	</div>
+	<br>
+	<br>
+	<h2 id="result"></h2>
+
+
+
+
+
+ <!--Javascript -->
+    <script type="text/javascript" src="script.js"></script>
+ 
 </body>
 </html>
